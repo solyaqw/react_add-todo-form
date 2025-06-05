@@ -73,7 +73,6 @@ export const App = () => {
               setErrors(newErrors);
             }
           }}
-          required
         />
         {errors.title && (
           <p className="error" style={{ color: 'red' }}>
